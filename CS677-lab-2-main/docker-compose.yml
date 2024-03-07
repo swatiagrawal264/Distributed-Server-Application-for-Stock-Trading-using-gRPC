@@ -1,0 +1,34 @@
+version: "3.9"
+services:
+  frontend:
+    image: frontend
+    build:
+      context: .
+      dockerfile: Dockerfile_frontend
+    ports:
+      - "9999:8080"
+    depends_on:
+      - catalog
+      - order
+  
+    # volumes:
+    #   - ./data:/data
+  catalog:
+    image: catalog
+    build: 
+      context: .
+      dockerfile: Dockerfile_Catalog
+    ports:
+      - "8001:7070"
+    volumes:
+      - ./data:/data/catalog
+
+  order:
+    image: order
+    build: 
+      context: .
+      dockerfile: Dockerfile_Order
+    ports:
+      - "8002:6060"
+    volumes:
+      - ./data:/data/order

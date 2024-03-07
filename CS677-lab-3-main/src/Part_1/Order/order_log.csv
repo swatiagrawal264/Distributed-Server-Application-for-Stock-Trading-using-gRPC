@@ -1,0 +1,13 @@
+﻿
+0,Apple,Buy,10
+3,Google,Buy,1
+1,Apple,BUY,10
+3,Samsung,SELL,10
+0,Apple,BUY,10
+1,Apple,SELL,20
+3,Samsung,SELL,20
+0,Apple,BUY,10
+1,Apple,BUY,10
+2,Apple,BUY,10
+3,Apple,BUY,10
+4,Apple,SELL,10

@@ -1,0 +1,10 @@
+#Frontend dockerfile
+FROM python:3.8-alpine
+
+RUN pip3 install flask requests
+
+WORKDIR /src
+
+COPY src .
+
+ENTRYPOINT ["python", "Front_End.py"]

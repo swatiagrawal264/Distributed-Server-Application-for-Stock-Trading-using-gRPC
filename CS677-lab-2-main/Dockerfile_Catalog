@@ -1,0 +1,10 @@
+#Catalog dockerfile
+FROM python:3.8-alpine
+
+RUN pip install flask requests
+
+WORKDIR /src
+
+COPY src .
+
+ENTRYPOINT ["python", "Backend_Catalogue.py"]

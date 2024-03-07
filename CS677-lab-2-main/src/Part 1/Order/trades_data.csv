@@ -1,0 +1,13 @@
+Apple,10,20.0,success,Trade successful
+Apple,20,10.0,success,Trade successful
+Apple,70,10.0,success,Trade successful
+Apple,20,10.0,failure,Trade unsuccessful
+Apple,10,20.0,success,Buy successful
+Apple,10,10.0,success,Sell successful
+Apple ,200,100.0,failure,Buy unsuccessful
+Apple,200,200.0,failure,Buy unsuccessful
+Apple,100,20.0,success,Buy successful
+Apple ,100,10.0,failure,Buy unsuccessful
+Apple,50,10.0,failure,Buy unsuccessful
+Apple,10,10.0,success,Sell successful
+Apple,200,100.0,success,Sell successful

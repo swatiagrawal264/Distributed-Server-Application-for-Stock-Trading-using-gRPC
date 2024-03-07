@@ -1,0 +1,17 @@
+Enter stock name: GameStart
+{'status': 'success', 'data': {'quantity': 50, 'price': 150.0}}
+
+Enter quantity: 50
+
+Enter price: 10
+{'stock': 'Apple', 'quantity': 50, 'price': 150.0, 'status': 'success', 'message': 'Trade successful'}
+
+.................................................................................
+
+Enter stock name: GameStart
+{'status': 'success', 'data': {'quantity': 0, 'price': 150.0}}
+
+Enter quantity: 20
+
+Enter price: 10
+{'stock': 'GameStart', 'quantity': 20, 'price': 10.0, 'status': 'failure', 'message': 'Trade unsuccessful'}
